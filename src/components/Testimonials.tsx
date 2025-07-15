@@ -210,7 +210,13 @@ const Testimonials = () => {
             Experience the same level of quality and service that has made our clients so happy. 
             Start your custom tailoring journey today.
           </p>
-          <button className="px-8 py-3 bg-gradient-hero text-white rounded-lg font-medium shadow-elegant hover:shadow-elegant transform hover:scale-105 transition-all duration-300">
+          <button
+            onClick={() => {
+              const whatsappUrl = `https://wa.me/919502833302?text=${encodeURIComponent('Hi! I would like to book an appointment for tailoring services.')}`;
+              window.open(whatsappUrl, '_blank');
+            }}
+            className="px-8 py-3 bg-gradient-hero text-white rounded-lg font-medium shadow-elegant hover:shadow-elegant transform hover:scale-105 transition-all duration-300"
+          >
             Start Your Order
           </button>
         </div>
