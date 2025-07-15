@@ -10,14 +10,15 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-display font-bold text-primary mb-4">
-              Elegant Threads
+              Bathula Boutique
             </h3>
             <p className="text-white/80 mb-6 max-w-md leading-relaxed">
               Creating beautiful, custom-made women's wear with passion and precision. 
               Every piece is crafted to celebrate your unique style and personality.
             </p>
             <p className="text-white/80 mb-6 max-w-md leading-relaxed">
-              123 Fashion Avenue, Style City, SC 56789
+            Sri Bathula Boutique, Road No 6, beside Sri veda school,<br/> 
+            KRCR Colony Rd, Bachupally, Hyderabad, Telangana 500090.
             </p>
             <div className="flex space-x-4">
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
@@ -71,7 +72,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm">
-            © {currentYear} Elegant Threads. All rights reserved.
+            © {currentYear} Bathula Boutique. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="https://example.com/privacy" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-primary text-sm transition-colors">Privacy Policy</a>

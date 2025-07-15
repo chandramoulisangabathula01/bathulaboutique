@@ -47,7 +47,7 @@ const Navbar = () => {
   ];
 
   const handleWhatsappRedirect = () => {
-    const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent('Hi! I would like to book an appointment for tailoring services.')}`;
+    const whatsappUrl = `https://wa.me/919502833302?text=${encodeURIComponent('Hi! I would like to book an appointment for tailoring services.')}`;
     window.open(whatsappUrl, '_blank');
     setIsMobileMenuOpen(false); // Also close menu if open
   };
@@ -98,7 +98,7 @@ const Navbar = () => {
       {/* ======================= */}
       {/* Desktop Navigation      */}
       {/* ======================= */}
-      <NavBody>
+      <NavBody className="rounded-2xl">
         <Logo />
 
         {/* We map items manually to handle internal vs. external links */}
@@ -137,7 +137,7 @@ const Navbar = () => {
       {/* Mobile Navigation       */}
       {/* ======================= */}
       <MobileNav>
-        <MobileNavHeader>
+        <MobileNavHeader className="rounded-2xl">
           <Logo />
           <MobileNavToggle
             isOpen={isMobileMenuOpen}
@@ -148,6 +148,7 @@ const Navbar = () => {
         <MobileNavMenu
           isOpen={isMobileMenuOpen}
           onClose={() => setIsMobileMenuOpen(false)}
+          className="flex flex-col items-center justify-center" // Center items vertically and horizontally
         >
           {/* We map again to handle links and close the menu onClick */}
           {navItems.map((item, idx) => (
@@ -157,7 +158,7 @@ const Navbar = () => {
                 to={item.href}
                 state={item.href === '/gallery' ? null : undefined}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-foreground/80 hover:text-primary transition-colors"
+                className="text-foreground/80 hover:text-primary transition-colors text-2xl py-4 w-full text-center" // Bigger text and centered
               >
                 {item.name}
               </Link>
@@ -166,17 +167,17 @@ const Navbar = () => {
                 key={`mobile-${idx}`}
                 href={item.href}
                 onClick={(e) => handleAnchorClick(e, item.href)}
-                className="text-foreground/80 hover:text-primary transition-colors"
+                className="text-foreground/80 hover:text-primary transition-colors text-2xl py-4 w-full text-center" // Bigger text and centered
               >
                 {item.name}
               </a>
             )
           ))}
-          <div className="flex w-full flex-col gap-4 pt-4">
+          <div className="flex w-full flex-col gap-4 pt-4 px-4"> {/* Added px-4 for padding */}
             <NavbarButton
               onClick={handleWhatsappRedirect}
               variant="primary"
-              className="w-full"
+              className="w-full text-xl py-3" // Make button text bigger
             >
               Book Appointment
             </NavbarButton>

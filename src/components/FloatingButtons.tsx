@@ -7,13 +7,13 @@ import { motion } from 'framer-motion';
 const FloatingButtons = () => {
   const handleWhatsApp = () => {
     // Note: The phone number is from the source file. Update if needed.
-    const whatsappUrl = `https://wa.me/+447437531733?text=${encodeURIComponent("Hi, I'm interested in your services")}`;
+    const whatsappUrl = `https://wa.me/+919502833302?text=${encodeURIComponent("Hi, I'm interested in your services")}`;
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };
 
   const handleCall = () => {
     // Note: The phone number is from the source file. Update if needed.
-    window.location.href = 'tel:+447437531733';
+    window.location.href = 'tel:+919502833302';
   };
 
   const buttonVariants = {

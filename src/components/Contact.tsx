@@ -210,8 +210,8 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Visit Our Boutique</h4>
                   <p className="text-muted-foreground">
-                    123 Fashion Street, Banjara Hills<br />
-                    Hyderabad, Telangana 500034
+                  Sri Bathula Boutique, beside Sri veda school, Road No 6,<br/> 
+                  KRCR Colony Rd, Bachupally, Hyderabad, Telangana 500090.
                   </p>
                 </div>
               </div>
@@ -224,7 +224,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Call Us</h4>
                   <p className="text-muted-foreground">
-                    <a href="tel:+919876543210" className="hover:text-primary transition-colors">+91 98765 43210</a>
+                    <a href="tel:+919502833302" className="hover:text-primary transition-colors">+91 9502833302</a>
                   </p>
                 </div>
               </div>
@@ -237,7 +237,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Email Us</h4>
                   <p className="text-muted-foreground">
-                    <a href="mailto:info@elegantthreads.com" className="hover:text-primary transition-colors">info@elegantthreads.com</a>
+                    <a href="mailto:info@bathulaboutique.com" className="hover:text-primary transition-colors">info@bathulaboutique.com</a>
                   </p>
                 </div>
               </div>
@@ -249,7 +249,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Business Hours</h4>
-                  <p className="text-muted-foreground">Mon - Sat: 10:00 AM - 8:00 PM</p>
+                  <p className="text-muted-foreground">Mon - Sat: 10:00 AM - 9:00 PM</p>
+                  <p className="text-muted-foreground">Sun: 4:00 PM - 8:00 PM</p>
                 </div>
               </div>
             </Card>

@@ -105,14 +105,16 @@ const Hero = () => {
             >
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <RealButton variant="elegant" size="lg" className="w-full sm:w-auto" asChild>
-                  <a href="https://www.google.com/maps/dir/?api=1&destination=123+Fashion+Avenue,+Style+City,+SC+56789" target="_blank" rel="noopener noreferrer">
+                  <a href="https://maps.app.goo.gl/WZg5SNjofwCcpcF8A" target="_blank" rel="noopener noreferrer">
                     Get directions
                   </a>
                 </RealButton>
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <RealButton variant="outline" size="lg" className="w-full sm:w-auto">
-                  View Our Gallery
+                <RealButton variant="outline" size="lg" className="w-full sm:w-auto" asChild>
+                  <a href="/gallery">
+                    View Our Gallery
+                  </a>
                 </RealButton>
               </motion.div>
             </motion.div>

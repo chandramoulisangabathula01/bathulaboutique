@@ -12,10 +12,6 @@ const GalleryPage = () => {
   const [activeCategory, setActiveCategory] = useState('all');
   const [visibleImages, setVisibleImages] = useState(12);
 
-  // Scroll to top on component mount
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   const categories = [
     { id: 'all', name: 'All' },
