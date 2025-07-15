@@ -39,7 +39,7 @@ const GalleryPage = () => {
       category: 'blouses', 
       title: 'Embroidered Silk Blouse',
       description: 'Intricate gold embroidery on royal blue silk',
-      image: '/gallery/designer_blouses/1.png',
+      image: '/gallery/designer_blouses/1.webp',
       isPortrait: true
     },
     { 
@@ -47,7 +47,7 @@ const GalleryPage = () => {
       category: 'blouses', 
       title: 'Contemporary Cut Blouse',
       description: 'Modern design with traditional elements',
-      image: '/gallery/designer_blouses/2.png',
+      image: '/gallery/designer_blouses/2.webp',
       isPortrait: false
     },
     { 
@@ -55,7 +55,7 @@ const GalleryPage = () => {
       category: 'blouses', 
       title: 'Bridal Blouse',
       description: 'Heavy work blouse for special occasions',
-      image: '/gallery/designer_blouses/3.png',
+      image: '/gallery/designer_blouses/3.webp',
       isPortrait: true
     },
     { 
@@ -63,7 +63,7 @@ const GalleryPage = () => {
       category: 'blouses', 
       title: 'Designer Party Blouse',
       description: 'Elegant design for evening parties',
-      image: '/gallery/designer_blouses/4.png',
+      image: '/gallery/designer_blouses/4.webp',
       isPortrait: false
     },
     { 
@@ -71,7 +71,7 @@ const GalleryPage = () => {
       category: 'blouses', 
       title: 'Traditional Blouse',
       description: 'Classic design with modern touches',
-      image: '/gallery/designer_blouses/5.png',
+      image: '/gallery/designer_blouses/5.webp',
       isPortrait: true
     },
 
@@ -81,7 +81,7 @@ const GalleryPage = () => {
       category: 'frocks', 
       title: 'Evening Gown',
       description: 'Flowing silhouette for special events',
-      image: '/gallery/long_frocks/1.png',
+      image: '/gallery/long_frocks/1.webp',
       isPortrait: true
     },
     { 
@@ -89,7 +89,7 @@ const GalleryPage = () => {
       category: 'frocks', 
       title: 'Party Dress',
       description: 'Contemporary design with traditional touch',
-      image: '/gallery/long_frocks/2.png',
+      image: '/gallery/long_frocks/2.webp',
       isPortrait: false
     },
     { 
@@ -97,7 +97,7 @@ const GalleryPage = () => {
       category: 'frocks', 
       title: 'Casual Long Dress',
       description: 'Comfortable and stylish for daily wear',
-      image: '/gallery/long_frocks/3.png',
+      image: '/gallery/long_frocks/3.webp',
       isPortrait: true
     },
     { 
@@ -105,7 +105,7 @@ const GalleryPage = () => {
       category: 'frocks', 
       title: 'Maxi Dress',
       description: 'Flowy and elegant for summer occasions',
-      image: '/gallery/long_frocks/4.png',
+      image: '/gallery/long_frocks/4.webp',
       isPortrait: false
     },
     { 
@@ -113,7 +113,7 @@ const GalleryPage = () => {
       category: 'frocks', 
       title: 'Designer Gown',
       description: 'Elegant design for special occasions',
-      image: '/gallery/long_frocks/5.png',
+      image: '/gallery/long_frocks/5.webp',
       isPortrait: true
     },
     { 
@@ -121,7 +121,7 @@ const GalleryPage = () => {
       category: 'frocks', 
       title: 'Evening Wear',
       description: 'Sophisticated style for evening events',
-      image: '/gallery/long_frocks/6.png',
+      image: '/gallery/long_frocks/6.webp',
       isPortrait: false
     },
     { 
@@ -129,7 +129,7 @@ const GalleryPage = () => {
       category: 'frocks', 
       title: 'Formal Gown',
       description: 'Classic formal wear with modern elements',
-      image: '/gallery/long_frocks/7.png',
+      image: '/gallery/long_frocks/7.webp',
       isPortrait: true
     },
 
@@ -139,7 +139,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 1',
       description: 'Real customer wearing our creation',
-      image: '/gallery/real_pics/7.png',
+      image: '/gallery/real_pics/7.webp',
       isPortrait: true
     },
     { 
@@ -147,7 +147,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 2',
       description: 'Beautiful customer moments',
-      image: '/gallery/real_pics/8.png',
+      image: '/gallery/real_pics/8.webp',
       isPortrait: false
     },
     { 
@@ -155,7 +155,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 3',
       description: 'Customer satisfaction in every stitch',
-      image: '/gallery/real_pics/9.png',
+      image: '/gallery/real_pics/9.webp',
       isPortrait: true
     },
     { 
@@ -163,7 +163,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 4',
       description: 'Real people, real style',
-      image: '/gallery/real_pics/10.png',
+      image: '/gallery/real_pics/10.webp',
       isPortrait: false
     },
     { 
@@ -171,7 +171,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 5',
       description: 'Customer wearing our creation',
-      image: '/gallery/real_pics/11.png',
+      image: '/gallery/real_pics/11.webp',
       isPortrait: true
     },
     { 
@@ -179,7 +179,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 6',
       description: 'Elegant customer moments',
-      image: '/gallery/real_pics/12.png',
+      image: '/gallery/real_pics/12.webp',
       isPortrait: false
     },
     { 
@@ -187,7 +187,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 7',
       description: 'Real style stories',
-      image: '/gallery/real_pics/13.png',
+      image: '/gallery/real_pics/13.webp',
       isPortrait: true
     },
     { 
@@ -195,7 +195,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 8',
       description: 'Customer satisfaction showcase',
-      image: '/gallery/real_pics/14.png',
+      image: '/gallery/real_pics/14.webp',
       isPortrait: false
     },
     { 
@@ -203,7 +203,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 9',
       description: 'Beautiful customer creations',
-      image: '/gallery/real_pics/15.png',
+      image: '/gallery/real_pics/15.webp',
       isPortrait: true
     },
     { 
@@ -211,7 +211,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 10',
       description: 'Real fashion moments',
-      image: '/gallery/real_pics/16.png',
+      image: '/gallery/real_pics/16.webp',
       isPortrait: false
     },
     { 
@@ -219,7 +219,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 11',
       description: 'Customer style stories',
-      image: '/gallery/real_pics/17.png',
+      image: '/gallery/real_pics/17.webp',
       isPortrait: true
     },
     { 
@@ -227,7 +227,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 12',
       description: 'Real elegance in every design',
-      image: '/gallery/real_pics/18.png',
+      image: '/gallery/real_pics/18.webp',
       isPortrait: false
     },
     { 
@@ -235,7 +235,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 13',
       description: 'Customer wearing our designs',
-      image: '/gallery/real_pics/19.png',
+      image: '/gallery/real_pics/19.webp',
       isPortrait: true
     },
     { 
@@ -243,7 +243,7 @@ const GalleryPage = () => {
       category: 'real-pics', 
       title: 'Customer Design 14',
       description: 'Real beauty in every stitch',
-      image: '/gallery/real_pics/20.png',
+      image: '/gallery/real_pics/20.webp',
       isPortrait: false
     }
   ];

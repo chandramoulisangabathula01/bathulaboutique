@@ -1,3 +1,5 @@
+import VisitorCounter from "./VisitorCounter";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -75,6 +77,7 @@ const Footer = () => {
             <a href="https://example.com/privacy" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-primary text-sm transition-colors">Privacy Policy</a>
             <a href="https://example.com/terms" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-primary text-sm transition-colors">Terms of Service</a>
             <a href="https://example.com/return" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-primary text-sm transition-colors">Return Policy</a>
+            <VisitorCounter />
           </div>
         </div>
       </div>

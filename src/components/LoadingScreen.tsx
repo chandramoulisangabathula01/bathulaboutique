@@ -43,7 +43,7 @@ const LoadingScreen = ({ onLoadingComplete }: LoadingScreenProps) => {
             transition={{ duration: 2, ease: "linear", repeat: 0 }}
             className="mb-8"
           >
-            <img src="/gallery/logo_circle.png" alt="Bathula Boutique Logo" className="h-48 w-48 mx-auto" />
+            <img src="/gallery/logo_circle.webp" alt="Bathula Boutique Logo" className="h-48 w-48 mx-auto" />
           </motion.div>
 
           {/* Loading Animation */}

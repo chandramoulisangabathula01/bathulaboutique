@@ -21,12 +21,12 @@ export const servicesData: Service[] = [
     description: "Exquisite custom-made designer blouses with intricate embroidery, beadwork, and contemporary cuts that perfectly complement your sarees.",
     features: ["Custom embroidery", "Premium fabrics", "Modern cuts", "Traditional designs"],
     price: "Starting from ₹500",
-    image: "/gallery/designer_blouses/1.png",
+    image: "/gallery/designer_blouses/1.webp",
     subtitle: "Exquisite Custom-Made Designer Blouses",
     images: [
-      "/gallery/designer_blouses/2.png",
-      "/gallery/designer_blouses/3.png",
-      "/gallery/designer_blouses/4.png",
+      "/gallery/designer_blouses/2.webp",
+      "/gallery/designer_blouses/3.webp",
+      "/gallery/designer_blouses/4.webp",
     ],
     testimonials: [
       {
@@ -47,12 +47,12 @@ export const servicesData: Service[] = [
     description: "Elegant kurtas crafted with attention to detail, featuring beautiful necklines, sleeve designs, and comfortable fits for any occasion.",
     features: ["Traditional patterns", "Comfortable fit", "Quality stitching", "Multiple styles"],
     price: "Starting from ₹1,800",
-    image:  "/gallery/traditional_wear/1.png",
+    image:  "/gallery/traditional_wear/1.webp",
     subtitle: "Elegant Kurtas for Every Occasion",
     images: [
-      "/gallery/traditional_wear/2.png",
-      "/gallery/traditional_wear/2.png",
-      "/gallery/traditional_wear/2.png",
+      "/gallery/traditional_wear/2.webp",
+      "/gallery/traditional_wear/2.webp",
+      "/gallery/traditional_wear/2.webp",
     ],
     testimonials: [
       {
@@ -73,12 +73,12 @@ export const servicesData: Service[] = [
     description: "Stunning long frocks and gowns perfect for special occasions, designed to enhance your silhouette with grace and elegance.",
     features: ["Evening wear", "Party designs", "Elegant silhouettes", "Custom lengths"],
     price: "Starting from ₹3,200",
-    image: "/gallery/long_frocks/5.png",
+    image: "/gallery/long_frocks/5.webp",
     subtitle: "Stunning Long Frocks for Special Occasions",
     images: [
-      "/gallery/long_frocks/1.png",
-      "/gallery/long_frocks/2.png",
-      "/gallery/long_frocks/3.png",
+      "/gallery/long_frocks/1.webp",
+      "/gallery/long_frocks/2.webp",
+      "/gallery/long_frocks/3.webp",
     ],
     testimonials: [
       {
@@ -99,12 +99,12 @@ export const servicesData: Service[] = [
     description: "Beautiful half-saree sets with coordinated blouses and skirts, perfect for traditional celebrations and cultural events.",
     features: ["Coordinated sets", "Traditional appeal", "Perfect draping", "Festival ready"],
     price: "Starting from ₹4,000",
-    image: "/gallery/long_frocks/4.png",
+    image: "/gallery/long_frocks/4.webp",
     subtitle: "Beautiful Half-Saree Sets",
     images: [
-     " /gallery/long_frocks/7.png",
-      " /gallery/long_frocks/3.png",
-      " /gallery/long_frocks/6.png",
+     " /gallery/long_frocks/7.webp",
+      " /gallery/long_frocks/3.webp",
+      " /gallery/long_frocks/6.webp",
     ],
     testimonials: [
       {
@@ -125,12 +125,12 @@ export const servicesData: Service[] = [
     description: "Comfortable and stylish cotton pajamas and nightwear, designed for ultimate comfort without compromising on style.",
     features: ["Soft cotton fabric", "Comfortable fit", "Breathable material", "Easy maintenance"],
     price: "Starting from ₹800",
-    image: " /gallery/long_frocks/7.png",
+    image: " /gallery/long_frocks/7.webp",
     subtitle: "Comfortable Cotton Nightwear",
     images: [
-" /gallery/long_frocks/7.png",
-" /gallery/long_frocks/2.png",
-" /gallery/long_frocks/3.png",
+" /gallery/long_frocks/7.webp",
+" /gallery/long_frocks/2.webp",
+" /gallery/long_frocks/3.webp",
     ],
     testimonials: [
       {
@@ -151,12 +151,12 @@ export const servicesData: Service[] = [
     description: "Professional alteration services to ensure your existing garments fit perfectly and look their absolute best.",
     features: ["Perfect fitting", "Quick service", "Professional finish", "Size adjustments"],
     price: "Starting from ₹300",
-    image: " /gallery/long_frocks/1.png",
+    image: " /gallery/long_frocks/1.webp",
     subtitle: "Professional Alteration Services",
     images: [
-      " /gallery/long_frocks/3.png",
-      " /gallery/long_frocks/7.png",
-      " /gallery/long_frocks/6.png",
+      " /gallery/long_frocks/3.webp",
+      " /gallery/long_frocks/7.webp",
+      " /gallery/long_frocks/6.webp",
 
     ],
     testimonials: [

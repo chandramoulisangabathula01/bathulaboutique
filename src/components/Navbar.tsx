@@ -86,7 +86,7 @@ const Navbar = () => {
       onClick={() => isMobileMenuOpen && setIsMobileMenuOpen(false)}
       className="flex items-center gap-2"
     >
-      <img src="/gallery/logo_circle.png" alt="Bathula Boutique Logo" className="h-24 w-24 md:h-24 md:w-24" />
+      <img src="/gallery/logo_circle.webp" alt="Bathula Boutique Logo" className="h-24 w-24 md:h-24 md:w-24" />
       {/* <span className="text-xl md:text-2xl font-display font-bold text-red-900 hover:text-primary-hover transition-colors duration-300">
         Bathula Boutique
       </span> */}

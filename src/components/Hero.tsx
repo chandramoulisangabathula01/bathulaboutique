@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { Star, Users, Calendar } from 'lucide-react';
-import heroBanner from '@/assets/hero_pic.png';
+import heroBanner from '@/assets/hero_pic.webp';
 
 // --- Placeholder for your custom Button component ---
 const ButtonPlaceholder = ({ variant, size, className, children, ...props }: any) => (
