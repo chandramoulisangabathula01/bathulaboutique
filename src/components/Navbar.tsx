@@ -98,7 +98,7 @@ const Navbar = () => {
       {/* ======================= */}
       {/* Desktop Navigation      */}
       {/* ======================= */}
-      <NavBody className="rounded-2xl">
+      <NavBody >
         <Logo />
 
         {/* We map items manually to handle internal vs. external links */}

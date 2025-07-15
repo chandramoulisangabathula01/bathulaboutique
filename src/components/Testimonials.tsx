@@ -189,7 +189,7 @@ const Testimonials = () => {
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-display font-bold text-primary mb-2">
-              5 Years
+              9+ Years
             </div>
             <p className="text-muted-foreground">Of Excellence</p>
           </div>
