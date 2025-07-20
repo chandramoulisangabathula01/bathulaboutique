@@ -10,6 +10,8 @@ import Index from "./pages/Index";
 import ServiceDetail from "./pages/ServiceDetail";
 import GalleryPage from "./pages/GalleryPage";
 import NotFound from "./pages/NotFound";
+import ServicesPage from "./pages/ServicesPage";
+import AboutUsPage from "./pages/AboutUsPage"; // Import the AboutUsPage
 
 const queryClient = new QueryClient();
 
@@ -35,7 +37,9 @@ const App = () => {
               <Route path="/" element={<Index />} />
               <Route path="/services/:slug" element={<ServiceDetail />} />
               <Route path="/gallery" element={<GalleryPage />} />
+              <Route path="/services" element={<ServicesPage />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="/about" element={<AboutUsPage />} /> {/* Add the About Us route */}
               <Route path="*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>
